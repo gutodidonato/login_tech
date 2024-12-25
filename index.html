@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Login Avançado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <div class="squares-container"></div>
+        <div class="lines-container"></div>
+        <div class="particles-container"></div>
+        <canvas id="matrix-effect"></canvas>
+    </div>
+    
+    <div class="login-container">
+        <div class="hologram-effect"></div>
+        <h1>Login</h1>
+        <form class="login-form">
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label for="email">Email</label>
+                <div class="input-fx"></div>
+            </div>
+            
+            <div class="input-group">
+                <input type="password" id="password" required>
+                <label for="password">Senha</label>
+                <div class="input-fx"></div>
+            </div>
+            
+            <div class="options">
+                <label class="remember">
+                    <input type="checkbox" id="remember">
+                    <span class="checkmark"></span>
+                    <span>Lembrar-me</span>
+                </label>
+                <a href="#" class="forgot">Esqueceu a senha?</a>
+            </div>
+            
+            <button type="submit" class="login-btn">
+                <span>Entrar</span>
+                <div class="btn-fx"></div>
+            </button>
+            
+            <p class="register">
+                Não tem uma conta? <a href="#">Registre-se</a>
+            </p>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
